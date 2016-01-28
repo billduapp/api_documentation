@@ -1,4 +1,4 @@
-# API Gocumentation
+# API Documentation
 
 General REST API documentation for Billdu.com REST API
 
