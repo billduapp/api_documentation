@@ -28,7 +28,7 @@ toSign['apiKey'] = your api key
 
 ksort(toSign) //sort the array by keys
 
-json = JSON.encode(toSign)
+json = JSON.encode(toSign) //JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_NUMERIC_CHECK
 
 signature = base64_encode(hash_hmac('sha512', json, apiSecret, raw = TRUE))
 
